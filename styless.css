@@ -1,0 +1,36 @@
+* {
+  margin: 15;
+  padding: 0;
+  background-color: rgb(241, 231, 217);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: red;
+  font-family: roboto;
+  text-align: center;
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+}
+
+ul {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+a:hover {
+  color: brown;
+}
+ul > * {
+  display: inline;
+}
+.azerty {
+  color: rgb(156, 77, 77);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: chocolate;
+}
+
+input {
+  width: 500px;
+}
