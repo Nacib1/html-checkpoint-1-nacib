@@ -1,5 +1,5 @@
 * {
-  margin: 15;
+  margin: 0;
   padding: 0;
   background-color: rgb(241, 231, 217);
   font-family: "Roboto", sans-serif;
@@ -13,19 +13,27 @@ h1 {
   background-color: #333;
   color: #fff;
 }
-
-ul {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.flex {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
 }
+
+header {
+  display: flex;
+
+  justify-content: space-around;
+}
+
 a:hover {
   color: brown;
 }
-ul > * {
-  display: inline;
+
+h2 :hover {
+  color: rgb(17, 0, 255);
 }
 .azerty {
-  color: rgb(156, 77, 77);
+  color: rgb(16, 11, 11);
   margin-top: 15px;
   margin-bottom: 15px;
   background-color: chocolate;
@@ -33,4 +41,7 @@ ul > * {
 
 input {
   width: 500px;
+}
+h1:hover {
+  color: blue;
 }
